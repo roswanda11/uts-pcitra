@@ -222,7 +222,7 @@ def plot_images(original, modified, title1="Original", title2="Modified", cmap_v
     plt.show()
 
 # Contoh penggunaan fungsi
-image_file = 'd:/mdinalayubi/foto/ayubi1.jpg'
+image_file = r'c:\Users\LENOVO\Pictures\download.jpg'
 image = read_image(image_file)
 adjusted_image = adjust_brightness_contrast(image, brightness=50, contrast=30)
 
@@ -234,8 +234,8 @@ adjusted_image_gray = adjust_brightness_contrast(image_gray, brightness=50, cont
 
 plot_images(image_gray, adjusted_image_gray, title1="Original Grayscale Image", title2="Brightness & Contrast Adjusted", cmap_val='gray')
 ```
-![img](pcitra)
-![img](pcitra)
+![img](pcitra/Figure_1.png)
+![img](pcitra/Figure_2.png)
 # Contour
 Ilustrasikan pembuatan plot kontur sederhana, kontur pada gambar dengan bilah warna untuk kontur, dan kontur yang diberi label.
 ```bash
